@@ -91,4 +91,9 @@ pinInput.addEventListener('input', (e) => {
 // attach the test function to the button
 document.getElementById('check').addEventListener('click', test);
 
+document.getElementById("reset").addEventListener("click", function(){
+  clear();
+  location.reload();
+});
+
 main();
